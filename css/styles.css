@@ -22,3 +22,15 @@ img {
 .clickable:hover {
   text-decoration: underline;
 }
+
+.green-background {
+  background-color: green;
+}
+
+.red-background {
+  background-color: red;
+}
+
+.blue-background {
+  background-color: blue;
+}
