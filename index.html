@@ -8,8 +8,38 @@
     <title></title>
   </head>
   <body>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/core.js"></script>
+    <div class="container">
+      <h1>Airplane Emergency Procedures Guide</h1>
+        <div class="row">
+          <div class="col-md-4">
+              <h2>Oxygen Mask Instructions</h2>
+                <div id="oxygen-hidden">
+                  <h2 class="clickable">Click to see image!</h2>
+                </div>
+                <div id="oxygen-showing">
+                  <img src="img/oxygenmask.jpg">
+                  <h2 class="clickable">Click to hide image!</h2>
+                </div>
+          </div>
+          <div class="col-md-4">
+            <h2>Flotation Device Instructions</h2>
+              <div id="flotation-hidden">
+                <h2 class="hover">Hover to see image!</h2>
+              </div>
+              <div id="flotation-showing">
+                <img src="img/flotations.jpg">
+              </div>
+          </div>
+          <div class="col-md-4">
+            <h2>Evacuation Instructions</h2>
+                <h2 class="slidetoggle">Hover to see image!</h2>
+              <div id="evacuation-showing">
+                <img src="img/evacuation.jpg">
+              </div>
+          </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
   </body>
 </html>
